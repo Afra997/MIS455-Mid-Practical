@@ -3,6 +3,20 @@ header {
     color: #fff;
     padding: 1em;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    padding-top: 4em; /* Adds space for the fixed navbar */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
 nav a {
@@ -13,4 +27,23 @@ nav a {
 
 nav a:hover {
     background-color: #555;
+}
+
+/* Contact Info */
+.contact-info {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    margin: 1em;
+}
+
+.contact-image img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
 }

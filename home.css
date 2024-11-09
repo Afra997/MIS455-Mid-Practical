@@ -15,6 +15,17 @@ header {
     z-index: 1000;
 }
 
+main {
+    padding-top: 4em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+
+
 nav a {
     color: white;
     padding: 0.5em 1em;
@@ -25,11 +36,11 @@ nav a:hover {
     background-color: #555;
 }
 
+/* Main Content */
 main {
     display: flex;
     justify-content: space-around;
     padding: 1em;
-    padding-top: 4em;
 }
 
 .welcome, .featured {
@@ -41,6 +52,7 @@ main {
     margin-bottom: 1em;
 }
 
+/* Footer */
 footer {
     background-color: #333;
     color: #fff;

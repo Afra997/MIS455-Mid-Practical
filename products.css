@@ -3,6 +3,20 @@ header {
     color: #fff;
     padding: 1em;
     text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+main {
+    padding-top: 4em; /* Adds space for the fixed navbar */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
 }
 
 nav a {
@@ -15,6 +29,7 @@ nav a:hover {
     background-color: #555;
 }
 
+/* Product Grid */
 .product-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
